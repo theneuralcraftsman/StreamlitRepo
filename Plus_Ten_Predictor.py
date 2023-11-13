@@ -5,7 +5,7 @@ import pickle
 # model = tf.keras.models.load_model("D:/DeepLearningModels/Streamlit/linearModel.h5")
 # pickle.dump(model, open('D:/DeepLearningModels/Streamlit/model2','wb'))
 
-model = pickle.load(open('model2','rb'))
+model = pickle.load(open('model_predict','rb'))
 
 st.title("Number predictor :one:")
 
